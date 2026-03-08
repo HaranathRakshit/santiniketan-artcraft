@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Santiniketan ArtCraft</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Santiniketan ArtCraft</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="profile.html" class="active">Profile</a></li>
+            </ul>
+            <div class="nav-lang">
+                <button class="lang-btn active">EN</button>
+                <button class="lang-btn">বাংলা</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Header -->
+    <section class="profile-header">
+        <div class="container">
+            <h1>My Profile</h1>
+            <p>Manage your account and preferences</p>
+        </div>
+    </section>
+
+    <!-- Profile Content -->
+    <section class="profile-content">
+        <div class="container">
+            <div class="profile-grid">
+                <div class="profile-sidebar">
+                    <div class="profile-avatar">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150" alt="Profile Picture">
+                        <button class="edit-avatar"><i class="fas fa-camera"></i></button>
+                    </div>
+                    <h3>John Doe</h3>
+                    <p class="user-email">john.doe@example.com</p>
+                    <div class="profile-stats">
+                        <div class="stat">
+                            <span class="number">12</span>
+                            <span class="label">Orders</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">5</span>
+                            <span class="label">Reviews</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="profile-main">
+                    <div class="profile-section">
+                        <h2>Personal Information</h2>
+                        <form class="profile-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>First Name</label>
+                                    <input type="text" value="John" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Last Name</label>
+                                    <input type="text" value="Doe" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" value="john.doe@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Phone</label>
+                                <input type="tel" value="+91 98765 43210">
+                            </div>
+                            <div class="form-group">
+                                <label>Address</label>
+                                <textarea rows="3">123 Main Street, Mumbai, Maharashtra</textarea>
+                            </div>
+                            <button type="submit" class="save-btn">Save Changes</button>
+                        </form>
+                    </div>
+                    
+                    <div class="profile-section">
+                        <h2>Order History</h2>
+                        <div class="order-list">
+                            <div class="order-item">
+                                <div class="order-header">
+                                    <span class="order-id">#ORD-2025-001</span>
+                                    <span class="order-date">Jan 15, 2025</span>
+                                    <span class="order-status delivered">Delivered</span>
+                                </div>
+                                <div class="order-products">
+                                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=50" alt="Clay Pot">
+                                    <div class="order-details">
+                                        <h4>Traditional Clay Pot</h4>
+                                        <p>₹850</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="order-item">
+                                <div class="order-header">
+                                    <span class="order-id">#ORD-2025-002</span>
+                                    <span class="order-date">Jan 20, 2025</span>
+                                    <span class="order-status processing">Processing</span>
+                                </div>
+                                <div class="order-products">
+                                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=50" alt="Handwoven Scarf">
+                                    <div class="order-details">
+                                        <h4>Handwoven Scarf</h4>
+                                        <p>₹1,200</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Santiniketan ArtCraft</h3>
+                    <p>Preserving traditional crafts and supporting local artisans</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="shop.html">Pottery & Ceramics</a></li>
+                        <li><a href="shop.html">Textiles & Fabrics</a></li>
+                        <li><a href="shop.html">Woodcraft & Bamboo</a></li>
+                        <li><a href="shop.html">Leather & Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Santiniketan, West Bengal</p>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-envelope"></i> info@santiniketanartcraft.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Santiniketan ArtCraft. Made with ♥ in Santiniketan.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

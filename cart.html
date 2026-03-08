@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Santiniketan ArtCraft</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Santiniketan ArtCraft</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="cart.html" class="active">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+            <div class="nav-lang">
+                <button class="lang-btn active">EN</button>
+                <button class="lang-btn">বাংলা</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cart Header -->
+    <section class="cart-header">
+        <div class="container">
+            <h1>Shopping Cart</h1>
+            <p>Review your selected items</p>
+        </div>
+    </section>
+
+    <!-- Cart Content -->
+    <section class="cart-content">
+        <div class="container">
+            <div class="cart-grid">
+                <div class="cart-items">
+                    <h2>Your Items (3)</h2>
+                    <div class="cart-item">
+                        <img src="some demo products images/1.jpg" alt="Traditional Clay Pot">
+                        <div class="item-details">
+                            <h3>Traditional Clay Pot</h3>
+                            <p class="artisan">by Ramesh Das</p>
+                            <p class="price">₹850</p>
+                        </div>
+                        <div class="item-quantity">
+                            <button class="qty-btn">-</button>
+                            <span>1</span>
+                            <button class="qty-btn">+</button>
+                        </div>
+                        <button class="remove-item"><i class="fas fa-trash"></i></button>
+                    </div>
+                    
+                    <div class="cart-item">
+                        <img src="some demo products images/3.jpg" alt="Handwoven Scarf">
+                        <div class="item-details">
+                            <h3>Handwoven Scarf</h3>
+                            <p class="artisan">by Meera Devi</p>
+                            <p class="price">₹1,200</p>
+                        </div>
+                        <div class="item-quantity">
+                            <button class="qty-btn">-</button>
+                            <span>2</span>
+                            <button class="qty-btn">+</button>
+                        </div>
+                        <button class="remove-item"><i class="fas fa-trash"></i></button>
+                    </div>
+                    
+                    <div class="cart-item">
+                        <img src="some demo products images/5.jpg" alt="Bamboo Basket">
+                        <div class="item-details">
+                            <h3>Bamboo Basket</h3>
+                            <p class="artisan">by Sunil Kumar</p>
+                            <p class="price">₹650</p>
+                        </div>
+                        <div class="item-quantity">
+                            <button class="qty-btn">-</button>
+                            <span>1</span>
+                            <button class="qty-btn">+</button>
+                        </div>
+                        <button class="remove-item"><i class="fas fa-trash"></i></button>
+                    </div>
+                </div>
+                
+                <div class="cart-summary">
+                    <h2>Order Summary</h2>
+                    <div class="summary-item">
+                        <span>Subtotal</span>
+                        <span>₹3,900</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Shipping</span>
+                        <span>₹150</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Tax</span>
+                        <span>₹195</span>
+                    </div>
+                    <div class="summary-item total">
+                        <span>Total</span>
+                        <span>₹4,245</span>
+                    </div>
+                    <button class="checkout-btn">Proceed to Checkout</button>
+                    <a href="shop.html" class="continue-shopping">Continue Shopping</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Santiniketan ArtCraft</h3>
+                    <p>Preserving traditional crafts and supporting local artisans</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="shop.html">Pottery & Ceramics</a></li>
+                        <li><a href="shop.html">Textiles & Fabrics</a></li>
+                        <li><a href="shop.html">Woodcraft & Bamboo</a></li>
+                        <li><a href="shop.html">Leather & Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Santiniketan, West Bengal</p>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-envelope"></i> info@santiniketanartcraft.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Santiniketan ArtCraft. Made with ♥ in Santiniketan.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
