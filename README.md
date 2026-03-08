@@ -1,5 +1,8 @@
 # Santiniketan Artcraft - শান্তিনিকেতনের শিল্পকর্ম
 
+<img width="1350" height="630" alt="image" src="https://github.com/user-attachments/assets/19e85daf-2f25-4dfe-a5b2-4df253645126" />
+
+
 A modern, responsive e-commerce website showcasing traditional handcrafted products from Santiniketan, West Bengal. This project celebrates the rich heritage of Bengal's artisans and their world-class handcrafts.
 
 ## 🌟 Features
@@ -192,5 +195,6 @@ For questions or support:
 - **Location**: Santiniketan, West Bengal, India
 
 ---
+
 
 **Made with ♥ in Santiniketan** - Celebrating the rich heritage of Bengal's traditional crafts and supporting local artisans. 
